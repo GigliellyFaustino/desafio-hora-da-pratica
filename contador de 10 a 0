@@ -1,0 +1,8 @@
+//criar um contador que va de 10 ate 0 e imprima os numeros
+
+let contador = 10;
+
+while (contador >= 0) {
+    alert(`contador = ${contador}`);
+    contador--;
+}
