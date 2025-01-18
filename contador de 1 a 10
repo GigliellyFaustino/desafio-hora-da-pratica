@@ -1,6 +1,6 @@
 //criar um contador que va de 1 ate 10 e imprima os numeros
 
-let = contador = 1;
+let contador = 1;
 
 while (contador < 11) {
     alert(`contador = ${contador}`);
