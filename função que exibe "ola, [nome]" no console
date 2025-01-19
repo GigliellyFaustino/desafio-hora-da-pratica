@@ -1,0 +1,6 @@
+// criar uma função que exibe ''olá, [nome]'' no console 
+
+let nome = prompt('Digite seu nome:');
+function exibirSimples (){
+        console.log(`olá, ${nome}!`);
+}
