@@ -1,0 +1,5 @@
+// criar uma função que exibe ''olá, mundo!'' no console 
+
+function exibirSimples (){
+    console.log('olá, mundo!');
+}
