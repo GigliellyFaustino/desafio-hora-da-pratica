@@ -1,0 +1,5 @@
+// Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+let numero = parseInt(prompt('Digite um número:')); 
+function exibirMultiplicacao(){
+    console.log(numero * numero);
+}
