@@ -1,0 +1,13 @@
+// calculadora de IMC (BASICA) || Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
+
+function calcularIMC(altura, peso) {
+  let IMC = peso/(altura*altura) 
+    return IMC.toFixed(2); 
+}
+
+let peso = parseFloat(prompt('Digite seu peso: '));
+let altura = parseFloat(prompt('Digite sua altura'));
+
+
+let resultado = calcularIMC(altura, peso);
+alert(`Seu IMC é ${resultado}`);
