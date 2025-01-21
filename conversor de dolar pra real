@@ -1,0 +1,14 @@
+// Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$4,80.
+
+function converterDolar(dolar) {
+    let dolarPraReal = dolar * (4.80);
+    return dolarPraReal;
+}
+
+let dolar = parseFloat(prompt('Digite o valor em dolar para converter para real: '));
+if (dolar > 0) {
+    let real = converter Dolar(dolar);
+    alert(`o valor em dolar convertido para real é de R$ ${real.toFixed(2)}!`);
+} else {
+    alert('por favor insira um valor valido em dolar para ser convertido');
+}
